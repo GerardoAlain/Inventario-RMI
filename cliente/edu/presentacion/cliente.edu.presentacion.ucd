@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="904,736" id="cliente.edu.presentacion" metadata="uml2-1.0" initialized="true" tag="1000" key="323030343130323620496E76656E746172696F2F43616D696C6F">
+  <children xsi:type="editmodel:ClassEditModel" name="Creditos" location="810,163" size="95,67" id="cliente.edu.presentacion/Creditos" runTimeClassModel="Creditos()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="71,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Creditos" id="cliente.edu.presentacion/Creditos#Creditos()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="InformacionUsuario" location="560,163" size="167,67" id="cliente.edu.presentacion/InformacionUsuario" runTimeClassModel="InformacionUsuario(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,18">
+      <children xsi:type="editmodel:MethodEditModel" name="InformacionUsuario" id="cliente.edu.presentacion/InformacionUsuario#InformacionUsuario(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0" name="ConexionServidor" location="330,163" size="158,211" id="cliente.edu.presentacion/ConexionServidor" runTimeClassModel="getServidor(),conectar(),estaConectado(),keyPressed(Ljava.awt.event.KeyEvent;),getInstancia(),keyReleased(Ljava.awt.event.KeyEvent;),desconectar(),keyTyped(Ljava.awt.event.KeyEvent;),getIdentificadorUnico()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="132,162">
+      <children xsi:type="editmodel:MethodEditModel" name="conectar" id="cliente.edu.presentacion/ConexionServidor#conectar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="desconectar" id="cliente.edu.presentacion/ConexionServidor#desconectar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="estaConectado" id="cliente.edu.presentacion/ConexionServidor#estaConectado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIdentificadorUnico" id="cliente.edu.presentacion/ConexionServidor#getIdentificadorUnico()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstancia" id="cliente.edu.presentacion/ConexionServidor#getInstancia()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getServidor" id="cliente.edu.presentacion/ConexionServidor#getServidor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyPressed" id="cliente.edu.presentacion/ConexionServidor#keyPressed(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyReleased" id="cliente.edu.presentacion/ConexionServidor#keyReleased(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyTyped" id="cliente.edu.presentacion/ConexionServidor#keyTyped(Ljava.awt.event.KeyEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cliente.edu.presentacion/ConexionServidor@conexionServidor+cliente.edu.presentacion/ConexionServidor@conexionServidor1" source="//@children.2" target="//@children.2" targetEnd="//@children.2/@sourceConnections.0/@children.1" label="//@children.2/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="conexionServidor" location="0,10" id="cliente.edu.presentacion/ConexionServidor@conexionServidor+cliente.edu.presentacion/ConexionServidor@conexionServidor1|cliente.edu.presentacion/ConexionServidor#conexionServidor" anchorKind="FixedAtEdge" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.0/@children.0" scopeKind="1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - conexionServidor" location="227,180" size="96,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="304,152" size="19,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="conexionServidor1" location="10,0" id="cliente.edu.presentacion/ConexionServidor@conexionServidor+cliente.edu.presentacion/ConexionServidor@conexionServidor1|cliente.edu.presentacion/ConexionServidor#conexionServidor1" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Inventario" location="50,163" size="164,175" id="cliente.edu.presentacion/Inventario" runTimeClassModel="setOrdenamientoDatos(Ljava.lang.String;),Inventario(),main([Ljava.lang.String;),getOrdenamientoDatos(),setStatusBarText(Ljava.lang.String;),mouseMoved(Ljava.awt.event.MouseEvent;),mouseDragged(Ljava.awt.event.MouseEvent;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="141,126">
+      <children xsi:type="editmodel:MethodEditModel" name="Inventario" id="cliente.edu.presentacion/Inventario#Inventario()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getOrdenamientoDatos" id="cliente.edu.presentacion/Inventario#getOrdenamientoDatos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="cliente.edu.presentacion/Inventario#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseDragged" id="cliente.edu.presentacion/Inventario#mouseDragged(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseMoved" id="cliente.edu.presentacion/Inventario#mouseMoved(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setOrdenamientoDatos" id="cliente.edu.presentacion/Inventario#setOrdenamientoDatos(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setStatusBarText" id="cliente.edu.presentacion/Inventario#setStatusBarText(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cliente.edu.logica.builder/AbstractBuilder@abstractBuilder+cliente.edu.presentacion/Inventario@inventario" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="inventario" location="81,0" id="cliente.edu.logica.builder/AbstractBuilder@abstractBuilder+cliente.edu.presentacion/Inventario@inventario|cliente.edu.presentacion/Inventario#inventario" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="abstractBuilder" location="81,43" id="cliente.edu.logica.builder/AbstractBuilder@abstractBuilder+cliente.edu.presentacion/Inventario@inventario|cliente.edu.logica.builder/AbstractBuilder#abstractBuilder" multiplicityLabel="//@children.3/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.3/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - abstractBuilder" location="138,100" size="84,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="105,100" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.3/@sourceConnections.0" name="AbstractBuilder" location="50,50" size="323,43" stereotype="interface" id="cliente.edu.logica.builder/AbstractBuilder" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:NotepadEditModel" location="462,44" size="422,38" fontInfo="Arial-8-0" note="Diagrama de clases del paquete presentacion, contiene las clases que intervienen&#xD;&#xA;directamente con el usuario en la interfaz."/>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=3" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

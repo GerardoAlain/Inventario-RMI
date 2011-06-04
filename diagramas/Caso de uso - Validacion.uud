@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:UseCaseDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Caso de uso - Validacion" metadata="uml2-1.0" initialized="true" tag="1000" key="323030343130323620496E76656E746172696F2F43616D696C6F">
+  <children xsi:type="editmodel:UseCaseActorEditModel" location="30,93" size="70,128" stereotype="" itemName="usuario">
+    <sourceConnections xsi:type="editmodel:UseCaseAssociationEditModel" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="70,64" attachSource="true"/>
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="0,17"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:UseCaseEditModel" targetConnections="//@children.0/@sourceConnections.0" location="210,140" size="102,34" description="" itemName="Validacion" alternativeFlows="{}" normalFlow="" postCondition="" preCondition="" rank="">
+    <sourceConnections xsi:type="editmodel:UseCaseGeneralizationEditModel" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="97,0" attachSource="true"/>
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="5,34"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:UseCaseGeneralizationEditModel" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.1/@children.1" sourceEnd="//@children.1/@sourceConnections.1/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="102,33" attachSource="true"/>
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="0,1"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:UseCaseEditModel" targetConnections="//@children.1/@sourceConnections.0" location="400,70" size="102,34" description="" itemName="Acceso Concedido" alternativeFlows="{}" normalFlow="" postCondition="" preCondition="" rank="">
+    <sourceConnections xsi:type="editmodel:UseCaseGeneralizationEditModel" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="102,17" attachSource="true"/>
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="0,17"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:UseCaseEditModel" targetConnections="//@children.1/@sourceConnections.1" location="400,200" size="102,34" description="" itemName="Acceso Denegado" alternativeFlows="{}" normalFlow="" postCondition="" preCondition="" rank="">
+    <sourceConnections xsi:type="editmodel:UseCaseGeneralizationEditModel" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="102,17" attachSource="true"/>
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="0,17"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:UseCaseEditModel" targetConnections="//@children.2/@sourceConnections.0" location="610,70" size="102,34" description="" itemName="Operar la aplicacion" alternativeFlows="{}" normalFlow="" postCondition="" preCondition="" rank=""/>
+  <children xsi:type="editmodel:UseCaseEditModel" targetConnections="//@children.3/@sourceConnections.0" location="610,200" size="102,34" description="" itemName="Salir de la aplicacion" alternativeFlows="{}" normalFlow="" postCondition="" preCondition="" rank=""/>
+  <diagramOptions xsi:type="options:UseCaseDiagramOptions" level="0" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+</editmodel:UseCaseDiagramEditModel>

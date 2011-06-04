@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="541,376" id="cliente.edu.repositorio" metadata="uml2-1.0" initialized="true" tag="1000" key="323030343130323620496E76656E746172696F2F43616D696C6F">
+  <children xsi:type="editmodel:ClassEditModel" name="ModeloTablaInventario" location="170,120" size="190,193" id="cliente.edu.repositorio/ModeloTablaInventario" runTimeClassModel="getColumnName(I),setValueAt(Ljava.lang.Object;II),getValueAt(II),ModeloTablaInventario(),getRowCount(),getColumnCount(),isCellEditable(II),setDataVector(Ljava.util.Vector;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,144">
+      <children xsi:type="editmodel:MethodEditModel" name="ModeloTablaInventario" id="cliente.edu.repositorio/ModeloTablaInventario#ModeloTablaInventario()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnCount" id="cliente.edu.repositorio/ModeloTablaInventario#getColumnCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnName" id="cliente.edu.repositorio/ModeloTablaInventario#getColumnName(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRowCount" id="cliente.edu.repositorio/ModeloTablaInventario#getRowCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValueAt" id="cliente.edu.repositorio/ModeloTablaInventario#getValueAt(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCellEditable" id="cliente.edu.repositorio/ModeloTablaInventario#isCellEditable(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDataVector" id="cliente.edu.repositorio/ModeloTablaInventario#setDataVector(Ljava.util.Vector;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setValueAt" id="cliente.edu.repositorio/ModeloTablaInventario#setValueAt(Ljava.lang.Object;II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:NotepadEditModel" location="40,40" size="431,38" fontInfo="Arial-8-0" note="Diagrama de clases del paquete repositorio, contiene la clase ModeloTablaInventario&#xD;&#xA;ya que su funcionalidad principal radica en el manejo de los datos de la tabla."/>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=3" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

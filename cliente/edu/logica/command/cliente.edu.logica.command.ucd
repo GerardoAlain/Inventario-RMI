@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="854,795" id="cliente.edu.logica.command" metadata="uml2-1.0" initialized="true" scrolledY="243" tag="1000" key="323030343130323620496E76656E746172696F2F43616D696C6F">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="MenuBarBuilder" location="20,180" size="329,67" id="cliente.edu.logica.builder/MenuBarBuilder" runTimeClassModel="MenuBarBuilder()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,18">
+      <children xsi:type="editmodel:MethodEditModel" name="MenuBarBuilder" id="cliente.edu.logica.builder/MenuBarBuilder#MenuBarBuilder()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.0 //@children.1/@sourceConnections.1" name="ManejadorComandos" location="655,166" size="178,193" id="cliente.edu.logica.command/ManejadorComandos" runTimeClassModel="buscarItem(),extraerUnidades(),getInstancia(),deshacer(),ingresarUnidades(),eliminarItem(),agregarItem(),setMomento()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,144">
+      <children xsi:type="editmodel:MethodEditModel" name="agregarItem" id="cliente.edu.logica.command/ManejadorComandos#agregarItem()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="buscarItem" id="cliente.edu.logica.command/ManejadorComandos#buscarItem()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deshacer" id="cliente.edu.logica.command/ManejadorComandos#deshacer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="eliminarItem" id="cliente.edu.logica.command/ManejadorComandos#eliminarItem()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="extraerUnidades" id="cliente.edu.logica.command/ManejadorComandos#extraerUnidades()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ingresarUnidades" id="cliente.edu.logica.command/ManejadorComandos#ingresarUnidades()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMomento" id="cliente.edu.logica.command/ManejadorComandos#setMomento()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstancia" id="cliente.edu.logica.command/ManejadorComandos#getInstancia()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cliente.edu.logica.command/ManejadorComandos@manejadorComandos+cliente.edu.logica.builder/MenuBarBuilder@menuBarBuilder" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="manejadorComandos" location="0,47" id="cliente.edu.logica.command/ManejadorComandos@manejadorComandos+cliente.edu.logica.builder/MenuBarBuilder@menuBarBuilder|cliente.edu.logica.command/ManejadorComandos#manejadorComandos" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.1/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - manejadorComandos" location="536,192" size="112,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="629,220" size="19,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="menuBarBuilder" location="329,33" id="cliente.edu.logica.command/ManejadorComandos@manejadorComandos+cliente.edu.logica.builder/MenuBarBuilder@menuBarBuilder|cliente.edu.logica.builder/MenuBarBuilder#menuBarBuilder"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cliente.edu.logica.command/ManejadorComandos@manejadorComandos+cliente.edu.logica.command/ManejadorComandos@manejadorComandos1" source="//@children.1" target="//@children.1" targetEnd="//@children.1/@sourceConnections.1/@children.1" label="//@children.1/@sourceConnections.1/@children.2" sourceEnd="//@children.1/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="manejadorComandos" location="178,19" id="cliente.edu.logica.command/ManejadorComandos@manejadorComandos+cliente.edu.logica.command/ManejadorComandos@manejadorComandos1|cliente.edu.logica.command/ManejadorComandos#manejadorComandos" anchorKind="FixedAtEdge" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.1/@sourceConnections.1/@children.0/@children.0" scopeKind="1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - manejadorComandos" location="840,192" size="112,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="840,164" size="19,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="manejadorComandos1" location="152,0" id="cliente.edu.logica.command/ManejadorComandos@manejadorComandos+cliente.edu.logica.command/ManejadorComandos@manejadorComandos1|cliente.edu.logica.command/ManejadorComandos#manejadorComandos1" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cliente.edu.logica.command/IComando@iComando+cliente.edu.logica.command/ManejadorComandos@manejadorComandos" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.2/@children.2" label="//@children.1/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="manejadorComandos" location="178,70" id="cliente.edu.logica.command/IComando@iComando+cliente.edu.logica.command/ManejadorComandos@manejadorComandos|cliente.edu.logica.command/ManejadorComandos#manejadorComandos" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="iComando" location="108,21" id="cliente.edu.logica.command/IComando@iComando+cliente.edu.logica.command/ManejadorComandos@manejadorComandos|cliente.edu.logica.command/IComando#iComando" multiplicityLabel="//@children.1/@sourceConnections.2/@children.2/@children.1" roleLabel="//@children.1/@sourceConnections.2/@children.2/@children.0" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - iComando" location="471,498" size="58,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="471,470" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.1/@sourceConnections.2" name="IComando" location="356,470" size="108,43" stereotype="interface" id="cliente.edu.logica.command/IComando" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AgregarItem" location="196,654" size="122,121" id="cliente.edu.logica.command/AgregarItem" runTimeClassModel="AgregarItem(),keyPressed(Ljava.awt.event.KeyEvent;),keyReleased(Ljava.awt.event.KeyEvent;),keyTyped(Ljava.awt.event.KeyEvent;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,72">
+      <children xsi:type="editmodel:MethodEditModel" name="AgregarItem" id="cliente.edu.logica.command/AgregarItem#AgregarItem()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyPressed" id="cliente.edu.logica.command/AgregarItem#keyPressed(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyReleased" id="cliente.edu.logica.command/AgregarItem#keyReleased(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyTyped" id="cliente.edu.logica.command/AgregarItem#keyTyped(Ljava.awt.event.KeyEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="cliente.edu.logica.command/IComando&lt;-cliente.edu.logica.command/AgregarItem" source="//@children.3" target="//@children.6/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="61,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ExtraerUnidades" location="686,654" size="148,121" id="cliente.edu.logica.command/ExtraerUnidades" runTimeClassModel="ExtraerUnidades(),keyPressed(Ljava.awt.event.KeyEvent;),keyReleased(Ljava.awt.event.KeyEvent;),keyTyped(Ljava.awt.event.KeyEvent;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,72">
+      <children xsi:type="editmodel:MethodEditModel" name="ExtraerUnidades" id="cliente.edu.logica.command/ExtraerUnidades#ExtraerUnidades()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyPressed" id="cliente.edu.logica.command/ExtraerUnidades#keyPressed(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyReleased" id="cliente.edu.logica.command/ExtraerUnidades#keyReleased(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyTyped" id="cliente.edu.logica.command/ExtraerUnidades#keyTyped(Ljava.awt.event.KeyEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="cliente.edu.logica.command/IComando&lt;-cliente.edu.logica.command/ExtraerUnidades" source="//@children.4" target="//@children.6/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="IngresarUnidades" location="502,654" size="154,121" id="cliente.edu.logica.command/IngresarUnidades" runTimeClassModel="keyPressed(Ljava.awt.event.KeyEvent;),keyReleased(Ljava.awt.event.KeyEvent;),IngresarUnidades(),keyTyped(Ljava.awt.event.KeyEvent;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,72">
+      <children xsi:type="editmodel:MethodEditModel" name="IngresarUnidades" id="cliente.edu.logica.command/IngresarUnidades#IngresarUnidades()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyPressed" id="cliente.edu.logica.command/IngresarUnidades#keyPressed(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyReleased" id="cliente.edu.logica.command/IngresarUnidades#keyReleased(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyTyped" id="cliente.edu.logica.command/IngresarUnidades#keyTyped(Ljava.awt.event.KeyEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="cliente.edu.logica.command/IComando&lt;-cliente.edu.logica.command/IngresarUnidades" source="//@children.5" target="//@children.6/@sourceConnections.0" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BuscarItem" location="50,654" size="116,121" id="cliente.edu.logica.command/BuscarItem" runTimeClassModel="keyPressed(Ljava.awt.event.KeyEvent;),keyReleased(Ljava.awt.event.KeyEvent;),BuscarItem(),keyTyped(Ljava.awt.event.KeyEvent;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,72">
+      <children xsi:type="editmodel:MethodEditModel" name="BuscarItem" id="cliente.edu.logica.command/BuscarItem#BuscarItem()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyPressed" id="cliente.edu.logica.command/BuscarItem#keyPressed(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyReleased" id="cliente.edu.logica.command/BuscarItem#keyReleased(Ljava.awt.event.KeyEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="keyTyped" id="cliente.edu.logica.command/BuscarItem#keyTyped(Ljava.awt.event.KeyEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.7/@sourceConnections.0 //@children.5/@sourceConnections.0 //@children.4/@sourceConnections.0" id="cliente.edu.logica.command/IComando&lt;-cliente.edu.logica.command/BuscarItem" source="//@children.6" target="//@children.2" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="58,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="54,43" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="EliminarItem" location="348,654" size="124,67" id="cliente.edu.logica.command/EliminarItem" runTimeClassModel="EliminarItem()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,18">
+      <children xsi:type="editmodel:MethodEditModel" name="EliminarItem" id="cliente.edu.logica.command/EliminarItem#EliminarItem()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="cliente.edu.logica.command/IComando&lt;-cliente.edu.logica.command/EliminarItem" source="//@children.7" target="//@children.6/@sourceConnections.0" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ToolBarBuilder" location="24,274" size="322,67" id="cliente.edu.logica.builder/ToolBarBuilder" runTimeClassModel="ToolBarBuilder()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,18">
+      <children xsi:type="editmodel:MethodEditModel" name="ToolBarBuilder" id="cliente.edu.logica.builder/ToolBarBuilder#ToolBarBuilder()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cliente.edu.logica.command/ManejadorComandos@manejadorComandos+cliente.edu.logica.builder/ToolBarBuilder@toolBarBuilder" source="//@children.8" target="//@children.1" targetEnd="//@children.8/@sourceConnections.0/@children.1" label="//@children.8/@sourceConnections.0/@children.2" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="toolBarBuilder" location="322,33" id="cliente.edu.logica.command/ManejadorComandos@manejadorComandos+cliente.edu.logica.builder/ToolBarBuilder@toolBarBuilder|cliente.edu.logica.builder/ToolBarBuilder#toolBarBuilder" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="manejadorComandos" location="0,141" id="cliente.edu.logica.command/ManejadorComandos@manejadorComandos+cliente.edu.logica.builder/ToolBarBuilder@toolBarBuilder|cliente.edu.logica.command/ManejadorComandos#manejadorComandos" multiplicityLabel="//@children.8/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.8/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - manejadorComandos" location="536,286" size="112,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="629,314" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="1,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:NotepadEditModel" location="230,70" size="438,52" fontInfo="Arial-8-0" note="Diagrama de clases para el paquete command, el cual contiene las clases necesarias&#xD;&#xA;para la ejecucion del patron correctamente, este patron es aplicado para ejecutar los&#xD;&#xA;comandos en la aplicacion."/>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=3" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

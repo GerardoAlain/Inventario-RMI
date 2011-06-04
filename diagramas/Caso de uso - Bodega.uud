@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:UseCaseDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Caso de uso - Bodega" metadata="uml2-1.0" initialized="true" tag="1000" key="323030343130323620496E76656E746172696F2F43616D696C6F">
+  <children xsi:type="editmodel:UseCaseActorEditModel" targetConnections="//@children.1/@sourceConnections.0" location="39,101" size="70,128" stereotype="" itemName="usuario"/>
+  <children xsi:type="editmodel:UseCaseEditModel" location="200,160" size="102,34" description="" itemName="Bodega" alternativeFlows="{}" normalFlow="" postCondition="" preCondition="" rank="">
+    <sourceConnections xsi:type="editmodel:UseCaseAssociationEditModel" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="0,17" attachSource="true"/>
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="70,76"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:UseCaseGeneralizationEditModel" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.1/@children.1" sourceEnd="//@children.1/@sourceConnections.1/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="100,0" attachSource="true"/>
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="12,34"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:UseCaseGeneralizationEditModel" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.2/@children.1" sourceEnd="//@children.1/@sourceConnections.2/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="102,17" attachSource="true"/>
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="0,17"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:UseCaseGeneralizationEditModel" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.3/@children.1" sourceEnd="//@children.1/@sourceConnections.3/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="101,34" attachSource="true"/>
+      <children xsi:type="editmodel:UseCaseEndEditModel" location="13,0"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:UseCaseEditModel" targetConnections="//@children.1/@sourceConnections.3" location="387,228" size="127,34" description="" itemName="Buscar un producto" alternativeFlows="{}" normalFlow="" postCondition="" preCondition="" rank=""/>
+  <children xsi:type="editmodel:UseCaseEditModel" targetConnections="//@children.1/@sourceConnections.1" location="390,90" size="122,34" description="" itemName="Agregar un producto" alternativeFlows="{}" normalFlow="" postCondition="" preCondition="" rank=""/>
+  <children xsi:type="editmodel:UseCaseEditModel" targetConnections="//@children.1/@sourceConnections.2" location="390,160" size="122,34" description="" itemName="Eliminar un producto" alternativeFlows="{}" normalFlow="" postCondition="" preCondition="" rank=""/>
+  <children xsi:type="editmodel:NotepadEditModel" location="170,67" size="139,24" fontInfo="Arial-8-0" note="Interaccion con bodega"/>
+  <diagramOptions xsi:type="options:UseCaseDiagramOptions" level="0" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+</editmodel:UseCaseDiagramEditModel>
